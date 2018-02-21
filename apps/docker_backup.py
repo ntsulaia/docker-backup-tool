@@ -61,7 +61,7 @@ def imageBackup(args):
 #create cli argument parser using python argparse framework
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-v", "--version", action="version", version) #add "--version" option
+parser.add_argument("-v", "--version", action="version", version="1.0.5") #add "--version" option
 subparsers = parser.add_subparsers()
 
 volumeParser = subparsers.add_parser("volume")  #add subcommand "volume" for container volume backup
