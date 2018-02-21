@@ -1,6 +1,4 @@
-# Project Title
-
-docker-backup-tool
+# docker-backup-tool
 
 ## Getting Started
 
