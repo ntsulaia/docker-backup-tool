@@ -118,6 +118,7 @@ def dockerVolumeBackup(containerList, backup_path, numberOfCopies):
 
 def getImageList():
     cmd = "/usr/bin/docker images --filter 'dangling=false' --format '{{ .ID }}->{{ .Repository }}->{{ .Tag }}'"
+    imageList = []
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
     (output, err) = p.communicate()
     p_status = p.wait()
