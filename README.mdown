@@ -23,7 +23,7 @@ Installation exmple:
 ```
 # pip install /<path to docker-backup-tool>/docker-backup-tool/dist/docker-backup-tool-1.0.5.tar.gz
 ```
-After sucsessful installation **docker-backup-tool** can be used directly from command line running docker-backup command. Use **--help** to get list of arguments and options of the tool.
+After sucsessful installation **docker-backup-tool** can be used directly from command line running **docker-backup** command. Use **--help** to get list of arguments and options of the tool.
 
 ```
 # docker-backup --help
