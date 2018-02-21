@@ -23,6 +23,11 @@ Installation exmple:
 ```
 # pip install /<path to docker-backup-tool>/docker-backup-tool/dist/docker-backup-tool-1.0.5.tar.gz
 ```
+If **docker-backup-tool** is installed with specific user, then it must be added to **docker** group.
+
+```
+# usermod -aG docker <username>
+```
 After sucsessful installation **docker-backup-tool** can be used directly from command line running **docker-backup** command. Use **--help** to get list of arguments and options of the tool.
 
 ```
@@ -46,7 +51,7 @@ optional arguments:
 
 One of the options **--full**, **--only_running** or **--container_list** are mandatory with **docker-backup volume** command. Depending on your desire you can perform volume and bind backup of all containers, only running containers or provided list of containers correspondingly. Options **--backup_path** and **--number_of_copies** are also mandatory to provide absolute path of the directory where backup files will be stored and amount of backup copies to be kept in the folder to prevent storage full up. 
 
-It should be mentioned that diring the backup process of volumes and binds, in order to prevent data corruption running containers are paused and unpaused after the process is completed. 
+It should be mentioned that diring backup process of volumes and binds, in order to prevent data corruption running containers are paused and unpaused after the process is completed. 
 
 ```
 # docker-backup volume --help
