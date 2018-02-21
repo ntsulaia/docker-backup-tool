@@ -3,14 +3,6 @@ import re
 import dockerbackuputils
 from dockerbackuputils import *
 
-#get version of the package
-#def getVersion():
-#    with open("__init__.py") as file:
-#        return re.search(r"""__version__\s+=\s+(['"])(?P<ver>.+?)\1""",
-#                         file.read()).group("ver")
-
-version = "1.0.5"
-
 #volumeBackup() function takes arguments and options parsed from cli and executes appropriate volume backup
 #(i.e. full, only-running or only for provided list)
 
