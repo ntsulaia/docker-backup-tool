@@ -20,7 +20,7 @@ setup(
     zip_safe=False,
     author="Nino Tsulaia",
     author_email="tsulaianino01@mail.com",
-    url = "https://github.com/ntsulaia/docker-backup-tool"
+    url = "https://github.com/ntsulaia/docker-backup-tool",
     classifiers=[
             "Programming Language :: Python :: 2",
             "Programming Language :: Python :: 2.7",
