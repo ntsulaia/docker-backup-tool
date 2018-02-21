@@ -1,6 +1,6 @@
 # docker-backup-tool
 
-This is simple and easy to use backup tool for automated backup of Docker container volumes and binds, as well as Docker images. **docker-backup-tool** is able to perform full backup of local volumes and binds for all currently existing containers on docker host, also perform full backup of all images. It is possible to select only specific containers and images to be save.
+This is simple and easy to use backup tool for automated backup of Docker container volumes and binds, as well as Docker images. **docker-backup-tool** is able to perform full backup of local volumes and binds for all currently existing containers on docker host, also perform full backup of all images. It is possible to select only specific containers and images to save.
 
 ## Getting Started
 
