@@ -4,7 +4,7 @@ This is simple and easy to use backup tool for automated backup of Docker contai
 
 ## Getting Started
 
-Clone git repository and perform setup process with python setuptools. After setup process completes, package can be installed locally by python **pip**.
+Clone git repository and perform setup process with python setuptools. After setup process completes, package can be installed locally by python **pip**. If you want to run the tool with specific user, you must do all the following steps by this user.
 
 ```
 # git clone git@gitlab.recogizer.net:nino/docker-backup-tool.git
