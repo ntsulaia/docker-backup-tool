@@ -4,10 +4,12 @@ import dockerbackuputils
 from dockerbackuputils import *
 
 #get version of the package
-def getVersion():
-    with open("__init__.py") as file:
-        return re.search(r"""__version__\s+=\s+(['"])(?P<ver>.+?)\1""",
-                         file.read()).group("ver")
+#def getVersion():
+#    with open("__init__.py") as file:
+#        return re.search(r"""__version__\s+=\s+(['"])(?P<ver>.+?)\1""",
+#                         file.read()).group("ver")
+
+version = "1.0.5"
 
 #volumeBackup() function takes arguments and options parsed from cli and executes appropriate volume backup
 #(i.e. full, only-running or only for provided list)
@@ -59,7 +61,7 @@ def imageBackup(args):
 #create cli argument parser using python argparse framework
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-v", "--version", action="version", version=getVersion()) #add "--version" option
+parser.add_argument("-v", "--version", action="version", version #add "--version" option
 subparsers = parser.add_subparsers()
 
 volumeParser = subparsers.add_parser("volume")  #add subcommand "volume" for container volume backup
