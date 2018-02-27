@@ -18,7 +18,7 @@ Clone git repository and perform setup process with python setuptools. After set
 
 After setup process is completed, archive file is generated in **docker-backup-tool/dist** directory. Now it can be install by python *pip*.
 
-Installation exmple:
+Installation example:
 
 ```
 # pip install /<path to docker-backup-tool>/docker-backup-tool/dist/docker-backup-tool-1.0.5.tar.gz
