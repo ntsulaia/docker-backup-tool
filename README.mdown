@@ -28,7 +28,7 @@ If **docker-backup-tool** is installed with specific user, then it must be added
 ```
 # usermod -aG docker <username>
 ```
-After sucsessful installation **docker-backup-tool** can be used directly from command line running **docker-backup** command. Use **--help** to get list of arguments and options of the tool.
+After successful installation **docker-backup-tool** can be used directly from command line running **docker-backup** command. Use **--help** to get list of arguments and options of the tool.
 
 ```
 # docker-backup --help
